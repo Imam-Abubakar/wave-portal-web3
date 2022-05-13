@@ -1,15 +1,14 @@
-# Basic Sample Hardhat Project
+# WAVE GENERATOR APP
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+# Developed using:
+- React
+- Hardhat
+- Alchemy (for deployment)
 
-Try running some of the following tasks:
+# How it works
+This is a wave generator app that allows user to send waves to the contract. Best part: you can get free test ETH, if you fall amongst the lucky wavers.
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+Check out the live site <a href="https://mywaveportal-web3.vercel.app/"></a>
+
+# What to do
+Connect your MetaMak wallet(Rinkeby Test Network), Send me a wave and confirm the transaction, stand a chance to earn back 0.0001ETH (TestNET)
