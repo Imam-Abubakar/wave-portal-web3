@@ -46,8 +46,39 @@
   background-color: #4070f4;
   transition: all 0.3s linear;
   cursor: pointer;
+  font-weight: 700;
 }
 
 .waveButton:hover{
   background-color: #112f82;
+}
+
+.fields{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fields .input-field{
+  display: flex;
+  max-width: 50%;
+  margin: 4px 0;
+  justify-self: center;
+}
+
+.input-field input{
+  outline: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  padding: 0 75px 0 15px;
+  height: 42px;
+  margin: 8px 0;
+  font-weight: 700;
+}
+
+.input-field input :focus{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.13);
 }
